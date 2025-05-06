@@ -1,1 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan Steele - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch">
+        <label for="theme-switch">Toggle Theme</label>
+    </div>
 
+    <!-- Header / Hero Section -->
+    <header class="hero" data-aos="fade-in">
+        <div class="hero-content">
+            <h1>Jordan Steele</h1>
+            <h2>Full-Stack Web & Mobile Developer</h2>
+            <p>Crafting sleek apps for the web & phone.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-bg">
+            <img src="https://undraw.co/illustrations/undraw_programming_re_kgf8.svg" alt="Tech Illustration" loading="lazy">
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section" data-aos="fade-up">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I'm a passionate developer who builds full-stack web applications and cross-platform mobile apps. With a background in design and an eye for detail, I create experiences that are both functional and visually appealing. When I'm not coding, I explore futuristic tech and tinker with animations.</p>
+            <p>My journey in tech started with a curiosity for how things work, leading me to master both front-end and back-end technologies. I thrive on solving complex problems and delivering seamless user experiences.</p>
+        </div>
+        <div class="skills">
+            <h3>Skills</h3>
+            <ul>
+                <li><strong>Front-End:</strong> HTML, CSS, JavaScript, React, Flutter</li>
+                <li><strong>Back-End:</strong> Node.js, Express, MongoDB, Firebase</li>
+                <li><strong>Tools:</strong> Git, Figma, Docker</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section" data-aos="fade-up">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card" data-aos="zoom-in">
+                <img src="https://via.placeholder.com/400x250" alt="TaskMaster Pro" loading="lazy">
+                <h3>TaskMaster Pro</h3>
+                <p>A full-featured task management app built with Flutter and Firebase.</p>
+                <p><strong>Tech:</strong> Flutter, Firebase, Firestore</p>
+                <div class="project-links">
+                    <a href="#">Live Demo</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card" data-aos="zoom-in">
+                <img src="https://via.placeholder.com/400x250" alt="FitTrack" loading="lazy">
+                <h3>FitTrack</h3>
+                <p>A fitness tracking app with real-time analytics and goal setting.</p>
+                <p><strong>Tech:</strong> React, Node.js, MongoDB</p>
+                <div class="project-links">
+                    <a href="#">Live Demo</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card" data-aos="zoom-in">
+                <img src="https://via.placeholder.com/400x250" alt="ChatSphere" loading="lazy">
+                <h3>ChatSphere</h3>
+                <p>A real-time chat application with group and private messaging.</p>
+                <p><strong>Tech:</strong> Flutter, Firebase</p>
+                <div class="project-links">
+                    <a href="#">Live Demo</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section" data-aos="fade-up">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-right">
+                <h3>Freelance Developer (Remote)</h3>
+                <p>2023–Present</p>
+                <p>Developed custom web and mobile solutions for clients across industries.</p>
+            </div>
+            <div class="timeline-item" data-aos="fade-left">
+                <h3>Frontend Engineer at ByteForge</h3>
+                <p>2021–2023</p>
+                <p>Built responsive UI components and optimized performance for web apps.</p>
+            </div>
+            <div class="timeline-item" data-aos="fade-right">
+                <h3>Junior Developer at DevNest</h3>
+                <p>2019–2021</p>
+                <p>Assisted in developing and maintaining client-facing web applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial" data-aos="zoom-in">
+                <img src="https://via.placeholder.com/50" alt="Casey M." loading="lazy">
+                <p>“Jordan transformed our outdated website into a sleek modern platform. Highly recommend!”</p>
+                <p><strong>Casey M., CEO at Streamly</strong></p>
+            </div>
+            <div class="testimonial" data-aos="zoom-in">
+                <img src="https://via.placeholder.com/50" alt="Alex R." loading="lazy">
+                <p>“Working with Jordan was a breeze. Delivered a flawless app on time!”</p>
+                <p><strong>Alex R., Product Manager</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section" data-aos="fade-up">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn primary">Send Message</button>
+        </form>
+        <div class="contact-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Email</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Jordan Steele</p>
+        <div class="social-icons">
+            <a href="#"><img src="https://via.placeholder.com/20" alt="GitHub" loading="lazy"></a>
+            <a href="#"><img src="https://via.placeholder.com/20" alt="LinkedIn" loading="lazy"></a>
+            <a href="#"><img src="https://via.placeholder.com/20" alt="Twitter" loading="lazy"></a>
+        </div>
+        <a href="#" class="back-to-top">Back to Top</a>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
